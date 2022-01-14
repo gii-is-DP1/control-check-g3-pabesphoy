@@ -24,7 +24,7 @@
                 <petclinic:inputField label="Room size in m2" name="size"/>
                 <petclinic:checkboxField label="Secure room?" name="secure"/>
                 <div class="control-group">
-                    <petclinic:selectField name="type" label="Room type " names="${types}" size="5"/>
+                    <petclinic:selectField name="roomType" label="Room type " names="${types}" size="5"/>
                 </div>
             </div>
             <div class="form-group">
